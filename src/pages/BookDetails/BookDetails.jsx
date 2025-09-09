@@ -12,8 +12,8 @@ const BookDetails = () => {
       <img className='w-48' src={image} alt="" />
       <h5>{bookName}</h5>
 
-      <button className="btn btn-secondary m-2">Read</button>
-      <button className="btn btn-accent m-2">Wishlist</button>
+      <button className="btn btn-secondary m-2">Mark As Read</button>
+      <button className="btn btn-accent m-2">Add to Wishlist</button>
     </div>
   );
 };
